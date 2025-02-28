@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="plugin.program.aanotherwizard"
+         name="Aanother Kodi Build Wizard"
+         version="1.0.0"
+         provider-name="YourName">
+      <extension point="xbmc.python.script"
+                library="default.py">
+          <provides>program</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+          <summary lang="en">Install the Aanother Kodi Build</summary>
+          <description lang="en">This wizard installs the Aanother Kodi Build featuring the Arctic Fuse 2 skin.</description>
+          <platform>all</platform>
+          <icon>icon.png</icon>
+          <fanart>fanart.jpg</fanart>
+      </extension>
+  </addon>
+</addons>
